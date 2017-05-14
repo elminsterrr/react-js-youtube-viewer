@@ -53,14 +53,3 @@ class App extends Component {
 }
 
 ReactDom.render(<App />, document.querySelector('.app'));
-
-// handleVideoSelect_0(clip) przekazuje w górę
-// z <VideoListItem /> poprzez <VideoList /> do <App />
-// obiekt zawierajacy dane jednego konkretnego filmu.
-
-// Następnie obiekt ten zostaje zapisany do stanu (this.setState)
-// komponentu <App />, co wywołuje ponowne zrenderowanie przez
-// React całego komponentu <App />.
-
-// W związku z tym zostaje zrenderowany VideoDetail, do którego jako props zostają przekazane
-// dane nowego obiektu z nowym filmem, który zostaje finalnie wyświetlny użytkownikowi.

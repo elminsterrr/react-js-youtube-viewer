@@ -3,8 +3,7 @@ import React from 'react';
 const VideoDetail = (props) => {
   const chosenClip = props.chosenClip;
   const userQuery = props.userQuery;
-  // Jeśli to zostanie spełnione, to cała reszta kodu
-  // nie zostanie wykonana ponieważ jest to return statement
+
   if (userQuery === '') {
     return <div className="info">Please enter your query to search YouTube.</div>;
   } else if (!chosenClip) {

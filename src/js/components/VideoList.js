@@ -2,11 +2,6 @@ import React from 'react';
 import VideoListItem from './VideoListItem';
 
 const VideoList = (props) => {
-  //console.log('@Props', props); // videos: Array(5)
-  // Lecimy przez obiekt props, iterujemy przez Array
-  // videos, a dla każdego elementu zwracamy oneElObj
-  // czyli pojedyńczy obiekt zawierający szczegółowe
-  // dane nt. danego filmu
   const videoItems = props.videos.map((oneElObj) => {
     return (
       <VideoListItem
