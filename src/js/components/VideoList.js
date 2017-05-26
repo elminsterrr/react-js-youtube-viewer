@@ -7,7 +7,8 @@ const VideoList = (props) => {
       <VideoListItem
         handleVideoSelect_1={props.handleVideoSelect_2}
         key={oneElObj.etag}
-        clip={oneElObj} />
+        clip={oneElObj}
+      />
     );
   });
   return (
