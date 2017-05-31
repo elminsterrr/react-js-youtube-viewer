@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoListItem = (props) => {
+function VideoListItem(props) {
   const clip = props.clip;
   const handleVideoSelect_0 = props.handleVideoSelect_1;
   const imageUrl = clip.snippet.thumbnails.default.url;
@@ -16,6 +16,6 @@ const VideoListItem = (props) => {
       </div>
     </li>
   );
-};
+}
 
 export default VideoListItem;
