@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoListItem from './VideoListItem';
 
-const VideoList = (props) => {
+function VideoList(props) {
   const videoItems = props.videos.map((oneElObj) => {
     return (
       <VideoListItem
@@ -16,6 +16,6 @@ const VideoList = (props) => {
       {videoItems}
     </ul>
   );
-};
+}
 
 export default VideoList;

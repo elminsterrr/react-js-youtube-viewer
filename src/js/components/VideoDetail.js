@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoDetail = (props) => {
+function VideoDetail(props) {
   const chosenClip = props.chosenClip;
   const userQuery = props.userQuery;
 
@@ -16,7 +16,7 @@ const VideoDetail = (props) => {
   return (
     <div className="video-detail col-md-8">
       <div className="embed-responsive embed-responsive-16by9">
-        <iframe className="embed-responsive-item" src={url} />
+        <iframe className="embed-responsive-item" title="YouTube" src={url} />
       </div>
       <div className="details">
         <div>{chosenClip.snippet.title}</div>
@@ -24,6 +24,6 @@ const VideoDetail = (props) => {
       </div>
     </div>
   );
-};
+}
 
 export default VideoDetail;

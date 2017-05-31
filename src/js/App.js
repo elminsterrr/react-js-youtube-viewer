@@ -15,7 +15,7 @@ class App extends Component {
     this.state = {
       videos: [],
       selectedVideo: null,
-      userQuery: ''
+      userQuery: '',
     };
   }
 
@@ -24,14 +24,14 @@ class App extends Component {
       this.setState({
         videos: [],
         selectedVideo: null,
-        userQuery: ''
+        userQuery: '',
       });
     } else {
       YTSearch({ key: API_KEY, term: userQuery }, (ytData) => {
         this.setState({
           videos: ytData,
           selectedVideo: ytData[0],
-          userQuery: userQuery
+          userQuery: userQuery,
         });
       });
     }
