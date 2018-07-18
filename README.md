@@ -1,8 +1,7 @@
 # react-js-youtube-viewer
 A lightweight application for searching YouTube videos.
-[See it live on GitHub pages.](https://elminsterrr.github.io/react-js-youtube-viewer/)
 
-An application for searching weather forecast in cities around the world. Created by: elminsterthewhite@gmail.com
+[See it live on GitHub pages.](https://elminsterrr.github.io/react-js-youtube-viewer/)
 
 ## Install
 
