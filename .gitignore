@@ -1,1 +1,4 @@
 /node_modules
+
+# API keys
+secret.js
